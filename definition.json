@@ -1,0 +1,26 @@
+{
+  "name": "Mailchimp",
+  "description": "Download email marketing data from Mailchimp.",
+  "instructions": "<ol><li>Navigate to <a target='_blank' href='https://us14.admin.mailchimp.com/account/api/'>the API keys section of your account</a></li><li>Click the 'Create a Key' button to create a new API key for Bytespree</li><li>Update the label value for the newly created key to 'Bytespree'</li><li>Look at the address bar in your browser and note the first section of the URL - this is your 'Data Center' (ex: 'us14')</li></ol>",
+  "use_tables": true,
+  "use_hooks": false,
+  "logo_path": "logo.png",
+  "settings": [
+    {
+      "name": "token",
+      "friendly_name": "API Token",
+      "description": "",
+      "is_secure": true,
+      "is_required": true,
+      "setting_type": "integration"
+    },
+    {
+      "name": "dataCenter",
+      "friendly_name": "Data Center",
+      "description": "",
+      "is_secure": false,
+      "is_required": true,
+      "setting_type": "integration"
+    }
+  ]
+}
